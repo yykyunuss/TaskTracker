@@ -1,13 +1,10 @@
 package com.example.tasktracker.controller;
 
 import com.example.tasktracker.dto.*;
-import com.example.tasktracker.entity.Task;
 import com.example.tasktracker.service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
