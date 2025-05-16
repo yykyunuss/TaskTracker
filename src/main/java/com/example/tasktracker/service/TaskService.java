@@ -1,6 +1,6 @@
 package com.example.tasktracker.service;
 
-import com.example.tasktracker.dto.*;
+import com.example.tasktracker.dto.task.*;
 import com.example.tasktracker.entity.Task;
 import com.example.tasktracker.mapper.TaskMapper;
 import com.example.tasktracker.repository.TaskRepository;

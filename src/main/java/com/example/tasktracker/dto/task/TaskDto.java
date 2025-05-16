@@ -1,13 +1,15 @@
-package com.example.tasktracker.dto;
+package com.example.tasktracker.dto.task;
 
 import com.example.tasktracker.enums.Priority;
 import com.example.tasktracker.enums.Status;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-@Data
-public class TaskAddResponse {
+@Getter
+@Setter
+public class TaskDto {
     private long id;
     private String title;
     private String description;

@@ -1,6 +1,6 @@
 package com.example.tasktracker.controller;
 
-import com.example.tasktracker.dto.*;
+import com.example.tasktracker.dto.task.*;
 import com.example.tasktracker.service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
